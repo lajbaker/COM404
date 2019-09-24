@@ -1,0 +1,13 @@
+# Create a program that improves Beeps health.
+print("Please enter the number of lives.")
+Lives = int(input())
+print("Please enter my energy level.")
+Energy = int(input())
+print("Please enter the sheild level.")
+Sheild = int(input())
+print()
+print("Health has been set.")
+print()
+print("Lives: "+ str(Lives*"♥"))
+print("Energy: "+ str(Energy*"♦"))
+print("Sheild: "+ str(Sheild*"♦"))
