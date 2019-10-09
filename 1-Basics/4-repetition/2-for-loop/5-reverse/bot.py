@@ -5,3 +5,4 @@ print("The phrase is: ", end=(""))
 for position in range(len(phrase)-1,-1,-1):
     print(phrase[position], end=(""))
 print("") 
+print(phrase[-1::-1])
