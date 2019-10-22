@@ -1,17 +1,18 @@
-word = input()
-#delete variable before committing
+#Option 1
 def option_choice_1(word):
     print()
     print(word)
     print("*"*len(word))
     print()
 
+#Option 2
 def option_choice_2(word):
     print()
     print("*"*len(word))
     print(word)
     print()
-    
+
+#Option 3
 def option_choice_3(word):
     print()
     print("*"*len(word))
@@ -19,6 +20,7 @@ def option_choice_3(word):
     print("*"*len(word))
     print()
 
+#Option 4
 def option_choice_4(word):
     print("Please enter the amount of repetitions you wish to see:")
     n = int(input())
@@ -39,8 +41,3 @@ def option_choice_4(word):
         for count2 in range(0,n,1):
             print("*"*len(word)+"   ", end="")
         print()
-
-option_choice_1(word)
-option_choice_2(word)
-option_choice_3(word)
-option_choice_4(word)

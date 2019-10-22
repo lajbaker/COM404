@@ -1,4 +1,3 @@
-
 from functions import option_choice_1, option_choice_2, option_choice_3, option_choice_4
 
 print("Please enter a word:")
@@ -12,9 +11,11 @@ print()
 print("Please make your choice by entering the option number (1 to 4)")
 while True:
     try:
-        option = int((input))
+        option = int(input())
+        break
     except ValueError:
         print("Please enter a number between 1 and 4:")
+
 if option == 1:
     option_choice_1(word)
 elif option == 2:
