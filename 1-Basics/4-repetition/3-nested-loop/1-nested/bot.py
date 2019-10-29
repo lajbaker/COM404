@@ -4,6 +4,6 @@ print("How many columns should I have?")
 columns = int(input())
 for count in range(0,rows,1):
     for count in range(0,columns,1):
-        print(":-) ", end=(""))
+       print(":-) ", end=(""))
     print()
 
